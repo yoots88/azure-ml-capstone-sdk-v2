@@ -1,0 +1,14 @@
+azure-ai-ml
+azure-identity
+mltable
+pandas
+openpyxl
+pyarrow
+ipykernel
+mlflow==2.15.1
+setuptools==80.9.0
+azureml-mlflow==1.59.0
+scikit-learn
+requests
+imbalanced-learn>=0.12.4
+xgboost>=2.1.4

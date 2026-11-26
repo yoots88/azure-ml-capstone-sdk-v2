@@ -1,0 +1,9 @@
+data/raw/
+data/prepared/
+.ipynb_checkpoints/
+__pycache__/
+outputs/
+.venv/
+*.zip
+
+*.amltmp
