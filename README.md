@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Capstone Project: Udacity MS Azure ML Engineer - FDA Inspection Risk Classification
 
 This Udacity Capstone classifies recorded FDA inspections for Official Action Indicated (OAI). Azure AutoML and a custom XGBoost sweep train on the same FDA cohort and FEI-disjoint train and validation splits. Both winners are scored on the same holdout. This comparison is **retrospective** because it uses the recorded inspection’s own posted citation count.
