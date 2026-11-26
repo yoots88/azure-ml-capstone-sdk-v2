@@ -64,43 +64,43 @@ Keep the `screenshots/` folder beside this README in Azure ML and in GitHub. The
 
 ### Data and Shared Splits
 
-![Versioned FDA train, validation, and holdout assets](screenshots/part1/01_fda_mltable_assets.png)
+![Versioned FDA train, validation, and holdout assets](screenshots/p1_step_06_fda_mltable_assets.png)
 
 *Azure ML Data shows the versioned retrospective train, validation, and holdout assets used for the comparison.*
 
 ### AutoML Training and Registered Winner
 
-![Azure ML AutoML trial progress and primary metrics](screenshots/part2/01_automl_trials.png)
+![Azure ML AutoML trial progress and primary metrics](screenshots/p2_step_08_automl_completed.png)
 
 *The AutoML Jobs view shows completed trials and their selection metric.*
 
-![Winning AutoML child run and registered model version](screenshots/part2/02_automl_winner.png)
+![Winning AutoML child run and registered model version](screenshots/p2_step_09_automl_winner.png)
 
 *The winning child run and its registered model version correspond to Section 09.*
 
 ### XGBoost Sweep and Registered Winner
 
-![Azure ML XGBoost sweep trials and validation metrics](screenshots/part2/03_sweep_trials.png)
+![Azure ML XGBoost sweep trials and validation metrics](screenshots/p2_step_12_sweep_completed.png)
 
 *The sweep Jobs view shows trial progress and validation metrics.*
 
-![Winning XGBoost child run, tuned parameters, and registered model](screenshots/part2/04_sweep_winner.png)
+![Winning XGBoost child run, tuned parameters, and registered model](screenshots/p2_step_13_sweep_winner.png)
 
 *The winning sweep child, tuned parameters, and registered model version correspond to Section 13.*
 
 ### Holdout Results and Model Selection
 
-![Notebook holdout comparison and deployment winner](screenshots/part2/05_holdout_comparison.png)
+![Notebook holdout comparison and deployment winner](screenshots/p2_step_14_holdout_comparison.png)
 
 *Sections 14–15 compare both candidates on the same holdout and identify the selected deployment version.*
 
 ### Active Deployment and Live Inference
 
-![Active Azure ML endpoint and healthy blue deployment](screenshots/part3/01_active_endpoint.png)
+![Active Azure ML endpoint and healthy blue deployment](screenshots/p3_step_18_blue_active.png)
 
 *Azure ML Studio shows the active endpoint, provisioned deployment, and traffic allocation. Include the deployed model version in the capture.*
 
-![Sample inference request and successful HTTP response](screenshots/part3/03_http_request_response.png)
+![Sample inference request and successful HTTP response](screenshots/p3_step_20_json_prediction.png)
 
 *Section 20 shows a live scoring response for the sample request used in the demonstration.*
 
