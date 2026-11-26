@@ -166,7 +166,7 @@ Before publishing, run `git ls-files screenshots/` and check that each image pat
 
 ## Screencast
 
-**YouTube screencast:** PASTE_YOUTUBE_URL_HERE
+**YouTube screencast:** [Watch the FDA Capstone demo](https://youtu.be/qaUYIMuKTUY)
 
 Record a 1–5 minute demo at 1080p or higher in 16:9. Show the versioned dataset, both training branches, the holdout comparison, the active deployment, and a live request and response. Verify the hosted link opens with viewer permissions before submitting.
 
@@ -177,4 +177,3 @@ Include the inference environment details, sample request, source scripts, both 
 ## Future Improvements
 
 Measure prospective performance with inputs available before an inspection and evaluate on a fresh temporal holdout. Calibrate thresholds using review capacity and the cost of missed OAI cases.
-=======
